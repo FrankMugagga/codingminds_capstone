@@ -16,4 +16,9 @@
     width: 20px;
 }
 
+.container {
+    background: url('images/home-bg-mobile.png');
+    background-repeat: no-repeat;
+}
+
 
