@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .about,
 .container {
   display: flex;
@@ -54,7 +56,7 @@
   margin-top: 0;
   width: 100%;
   font-size: 38px;
-  font-weight: 700;
+  font-weight: 900;
   margin-bottom: 0;
 }
 
@@ -173,7 +175,8 @@
 }
 
 .speaker_wrapper {
-  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .speaker_image_content {
@@ -223,7 +226,7 @@
   flex-direction: column;
   align-items: center;
   background: #272a31;
-  height: 140px;
+  height: auto;
   border: 2px solid red;
   width: 100%;
   padding: 0 40px;
@@ -238,8 +241,9 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  height: 20px;
+  height: auto;
   border: 2px solid blue;
+  flex-wrap: wrap;
 }
 
 .partner_img {
@@ -333,19 +337,47 @@
   color: white;
 }
 
+.navbar,
 .see_prog,
 .top_info {
   display: none;
 }
+
+.menu-show {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #ec5242;
+}
+
+.menu-hide {
+  display: none;
+}
+
+.menulist {
+  list-style: none;
+}
+
+.menu_link {
+  text-decoration: none;
+}
+/*
+.close.active {
+  display: none;
+}*/
+
+
+
 
 @media only screen and (min-width: 768px) {
   .hamb {
     display: none;
   }
 
+ 
+  .speakers,
   .top_info,
-  .title-section,
-  .program {
+  .title-section {
     padding: 0 150px;
   }
 
@@ -367,11 +399,12 @@
   .navbar {
     display: flex;
     flex-direction: row;
+    width: 100%;
     padding: 0 150px;
   }
 
   .logo {
-    width: 120px;
+    width: 20%;
     height: 50px;
   }
 
@@ -386,7 +419,7 @@
     list-style: none;
     text-decoration: none;
     width: 100%;
-    gap: 40px;
+    gap: 30px;
   }
 
   a {
@@ -414,6 +447,11 @@
     margin: 40px;
   }
 
+  .program {
+    padding: 80px;
+
+  }
+
   .prog_wrapper {
     display: flex;
     flex-direction: row;
@@ -421,7 +459,7 @@
   }
 
   .program_content {
-    width: 20%;
+    width: 40%;
     border: 2px solid blue;
     flex-direction: column;
     gap: 0;
@@ -449,17 +487,21 @@
     color: white;
     text-align: center;
     width: 98%;
-    height: 50%;
-    border: 2px solid red;
+    height: auto;
+    border: 2px solid blue;
   }
-
+/*
   .speaker_wrapper {
     border: 2px solid red;
     display: flex;
     flex-wrap: wrap;
     height: 550px;
   }
+*/
 
+.speaker_wrapper {
+  grid-template-columns: 1fr 1fr;
+}
   .speaker_image_content {
     width: 100%;
     flex: 0;
