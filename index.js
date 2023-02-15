@@ -81,7 +81,7 @@ speakers.forEach((item) => {
   speakerContent += ` 
    
         
-        <figure class="speaker_image_content">
+        <li class="speaker_image_content">
             
             <div class="img_background">
                 <img class="speaker_img" src=${item.image} alt="Brendan Eich">
@@ -93,7 +93,7 @@ speakers.forEach((item) => {
             <hr class="speaker_them">                  
             <div class="speaker_detail">${item.speakerDetail}</div>
            </div>               
-        </figure>
+        </li>
   
   `;
 });

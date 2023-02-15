@@ -1,0 +1,93 @@
+
+/* About */
+.main_aboutsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    border: 2px solid red;
+  }
+  
+  .logo_section,
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .para_about {
+    background: #d3d3d3;
+    color: #272a31;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .about-contact {
+    text-align: center;
+    width: 70%;
+    border-bottom: 2px solid black;
+  }
+  
+  .logo_section {
+    border: 2px solid blue;
+    width: 50%;
+  }
+  
+  .logo_des {
+    text-align: center;
+    color: #d3d3d3;
+    width: 100%;
+  }
+  
+  .logo_container {
+    border: 2px solid #d3d3d3;
+  }
+  
+  .past_summit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .summit_para {
+    width: 70%;
+    text-align: center;
+  }
+  
+  .summit_img_cont {
+    text-align: center;
+    color: #d3d3d3;
+    width: 100%;
+    height: 100px;
+    background: url("images/conference-bg.jpg");
+  }
+  
+  .year {
+    font-size: 30px;
+    color: white;
+  }
+  
+  .navbar,
+  .see_prog,
+  .top_info {
+    display: none;
+  }
+  
+  .menu-show {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #ec5242;
+  }
+  
+  .menu-hide {
+    display: none;
+  }
+  
+  .menulist {
+    list-style: none;
+  }
+  
+  .menu_link {
+    text-decoration: none;
+  }

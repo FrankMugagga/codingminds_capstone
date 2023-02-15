@@ -101,7 +101,7 @@
 
 .prog_thema {
   border: 1px solid #ec5242;
-  margin-bottom: 5px;
+  margin-bottom: 50px;
   width: 50px;
 }
 
@@ -114,7 +114,8 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  background: #d3d3d3;
+  height: auto;
+  background: rgba(234, 228, 228,0.2);
   margin-bottom: 8px;
   padding: 12px 20px;
   opacity: 0.;
@@ -139,6 +140,7 @@
 .prog_description {
   color: white;
   width: 50%;
+  height: auto;
 }
 
 .prog_title,
@@ -186,7 +188,8 @@
   height: 150px;
   padding: 16px;
   display: flex;
-  margin-bottom: 15px;
+  align-items: flex-start;
+  margin-bottom: 15px; border: 2px solid red;
 }
 
 .img_background {
@@ -207,12 +210,16 @@
 .speaker_info {
   width: 60%;
   display: flex;
-  flex-direction: column;
+  flex-direction: column;border: 2px solid blue;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
-.speaker_them {
+.speaker_them {  
   background: #d3d3d3;
   width: 40px;
+  margin-left: 0;
+  
 }
 
 .speaker_detail {
@@ -253,7 +260,6 @@
   width: 100px;
   margin-right: 20px;
   height: 50px;
-  flex: 1;
   border: 2px solid green;
 }
 
@@ -351,7 +357,7 @@
   position: fixed;
   width: 100%;
   height: 100vh;
-  background: #ec5242;
+  background: rgba(236, 82, 66,0.9);
 }
 
 .menu-hide {
@@ -467,6 +473,7 @@
   }
 
   .see_prog {
+    display: block;
     color: #d3d3d3;
     border-bottom: 1px solid #d3d3d3;
     margin: 50px;
@@ -486,17 +493,18 @@
 
   .program_content {
     width: 35%;
-    height: 270px;
+    height: auto;
     flex-direction: column;
     gap: 0;
-    padding: 0;
+    padding: 5px;
     margin-right: 2px;
   }
 
   .prog_imgcont {
-    width: 50%;
-    height: 20%;
-    margin-bottom: 0;
+    width: 60px;
+    height: 80px;
+    margin-bottom: 10px;
+    margin-top: 5px;
   }
 
   .prog-img {
