@@ -366,8 +366,7 @@
   .hamb {
     display: none;
   }
-
- 
+   
   .speakers,
   .top_info,
   .title-section {
@@ -442,7 +441,6 @@
 
   .program {
     padding: 80px;
-
   }
 
   .prog_wrapper {
@@ -483,6 +481,7 @@
     height: auto;
     border: 2px solid blue;
   }
+
 /*
   .speaker_wrapper {
     border: 2px solid red;
@@ -492,9 +491,10 @@
   }
 */
 
-.speaker_wrapper {
-  grid-template-columns: 1fr 1fr;
-}
+  .speaker_wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+
   .speaker_image_content {
     width: 100%;
     flex: 0;
