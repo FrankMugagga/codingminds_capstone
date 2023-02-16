@@ -62,7 +62,7 @@ Describe the tech stack and include only the relevant sections that apply to you
 
 Describe between 1-3 key features of the application.
 
-- **[Coding Minds International Summit]**
+- **[capstone_mobilefirst]**
 - **[]**
 - **[]**
 
@@ -77,7 +77,7 @@ Describe between 1-3 key features of the application.
 - [Live Demo Link]( https://frankmugagga.github.io/codingminds_capstone/)
 
 
-- [video Link](https://www.loom.com/share/1f2943ca12ee4b4e97db22f208077ecb)
+- [video Link](https://www.loom.com/share/2e3450adc4d946d286999471100d6e53)
 
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -96,8 +96,8 @@ Example commands:
 
 ```sh
   cd my-folder
-  git@github.com:FrankMugagga/Mugagga_Frank_Portfolio.git
-```
+  git@github.com:FrankMugagga/codingminds_capstone.git
+  ```
 ### Install
 
 Install this project with:
@@ -132,7 +132,7 @@ Mention all of the collaborators of this project.
 
 Describe 1 - 3 features you will add to the project.
 
-- [ ] **[created_Frank_Mugagga_portfolio]**
+- [ ] **[capstone_mobilefirst]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
