@@ -14,7 +14,7 @@ closeButton.addEventListener('click', () => {
 
 
 
-//let speakerSection = document.getElementById('speakers');
+
 let speakerSection = document.getElementById('wrapper');
 
 const speakers = [
@@ -61,20 +61,7 @@ const speakers = [
     }
 ];
 
-//<h3 class="speaker_header">Featured Speakers</h3>          
-//<div class="speaker_wrapper" id="wrapper"></div>
-/*
-const head = document.createElement('h3');
-head.className = 'speaker_header';
-head.textContent = 'Featured Speakers';
-speakerSection.appendChild(head);
 
-const wrapper = document.createElement('div');
-wrapper.className = 'speaker_wrapper';
-wrapper.id = 'wrapper';
-speakerSection.appendChild(wrapper);
-
-*/
 let speakerContent = ``;
 speakers.forEach((item) => { 
 
