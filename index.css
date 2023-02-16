@@ -124,7 +124,12 @@
   background: rgba(234, 228, 228,0.2);
   margin-bottom: 8px;
   padding: 12px 20px;
-  opacity: 0.;
+  transition: 1s;
+}
+
+.program_content:hover {
+  background: rgba(236, 82, 66,0.5);
+  border: 2px solid #d3d3d3;
 }
 
 .prog-img {
