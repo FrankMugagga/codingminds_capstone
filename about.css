@@ -134,9 +134,9 @@ body {
 
 .about-contact {
   text-align: center;
-  width: 70%;
+  width: 80%;
   margin-bottom: 40px;
-  color: rgba(39, 42, 49, 0.6);
+  color: rgba(39, 42, 49, 0.6);border: 2px;
 }
 
 .summit_mail {
@@ -151,13 +151,13 @@ body {
 
 .logo_head {
   text-align: center;
-  color: rgba(39, 42, 49);
+  color: rgba(39, 42, 49, 0.767);
   margin-bottom: 0;
 }
 
 .logo_des {
   text-align: center;
-  color: #d3d3d3;
+  color: rgba(39, 42, 49, 0.695);
   width: 100%;
 }
 
@@ -510,7 +510,7 @@ body {
     width: 90%;
     height: auto;
     font-size: 14px;
-    color: #d3d3d3;
+    color: rgba(39, 42, 49, 0.695);
   }
 
   .logo_container {

@@ -258,7 +258,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #272a31;
+  background: rgba(39, 42, 49, 0.878);
   height: auto;
   width: 100%;
   padding: 40px 40px;
@@ -288,15 +288,18 @@ body {
 .footer {
   display: flex;
   justify-content: center;
-  background: #d3d3d3;
+  align-items: center;
+  background: rgba(211, 211, 211, 0.31);
   width: 100%;
+  height: 150px;
   padding: 16px;
 }
 
 .right_info {
   display: flex;
-  width: 40%;
-  margin-left: 2px;
+  justify-content: flex-end;
+  width: 20%;
+  margin-right: 40px;
 }
 
 .small_trade {
