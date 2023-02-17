@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 body {
   margin: 0;
   padding: 0;
@@ -136,7 +137,7 @@ body {
   text-align: center;
   width: 80%;
   margin-bottom: 40px;
-  color: rgba(39, 42, 49, 0.6);border: 2px;
+  color: rgba(39, 42, 49, 0.6);
 }
 
 .summit_mail {
@@ -214,7 +215,6 @@ body {
 }
 
 .logo_date {
-  /*align-self: flex-end;*/
   border-bottom: 1px solid #272a31;
   border-top: 1px solid #272a31;
   width: 200px;
@@ -257,7 +257,7 @@ body {
   color: #d3d3d3;
   width: 100%;
   height: 180px;
-  margin-bottom: 10px;border: 2px solid red;
+  margin-bottom: 10px;
 }
 
 .summit_img_one {
@@ -270,7 +270,7 @@ body {
   background-size: cover;
 }
 
-.year { 
+.year {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -334,7 +334,6 @@ body {
   justify-content: flex-end;
   width: 40%;
   margin-right: 40px;
-
 }
 
 .small_trade {
@@ -385,7 +384,6 @@ body {
     color: #d3d3d3;
     text-decoration: none;
   }
-
 
   .navbar {
     display: flex;
@@ -442,7 +440,7 @@ body {
   }
 
   .navlist li {
-   margin-right: 10px;
+    margin-right: 10px;
   }
 
   .menu {
@@ -478,7 +476,6 @@ body {
     padding-inline-start: 1px;
     margin-left: 10px;
   }
-
 
   .main_aboutsection {
     align-items: center;
@@ -548,12 +545,11 @@ body {
 
   .small_trade,
   .trade_two,
-  .left_info{
+  .left_info {
     color: #d3d3d3;
   }
 
-  .small_trade{
+  .small_trade {
     border: 2px solid #d3d3d3;
   }
-
 }
