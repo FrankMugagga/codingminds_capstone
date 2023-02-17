@@ -77,7 +77,7 @@ Describe between 1-3 key features of the application.
 - [Live Demo Link]( https://frankmugagga.github.io/codingminds_capstone/)
 
 
-- [video Link](https://www.loom.com/share/2e3450adc4d946d286999471100d6e53)
+- [video Link](https://www.loom.com/share/22ac8658dc73439e85c413c8a1fdb286)
 
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
